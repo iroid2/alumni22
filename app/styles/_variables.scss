@@ -1,0 +1,28 @@
+body {
+  background-color: #f4f4f4;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.df {
+  display: flex;
+}
+.spaceBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.bodPadding {
+  padding: 0rem 5rem;
+  @media (max-width: 768px) {
+    padding: 0.2rem 1rem;
+  }
+}
+.f-end {
+  display: flex;
+  justify-content: flex-end;
+}
+a {
+  text-decoration: none;
+}
