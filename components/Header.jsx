@@ -2,15 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Button from "./Button";
-import {
-  AiFillFacebook,
-  AiOutlinePhone,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillYoutube,
-  AiFillLinkedin,
-  AiOutlineMail,
-} from "react-icons/ai";
+
 import { BiSearchAlt } from "react-icons/bi";
 import { BsFillTelephoneForwardFill, BsFillChatTextFill } from "react-icons/bs";
 import { IoIosInformationCircle } from "react-icons/io";
