@@ -3,6 +3,7 @@ import { BsCalendar2Event } from "react-icons/bs";
 import { ImLocation2 } from "react-icons/im";
 import { AiOutlineUser } from "react-icons/ai";
 import { FiArrowUpRight } from "react-icons/fi";
+// import { FiArrowUpRight } from "react-icons/fi";
 import Link from "next/link";
 export default function Events() {
   return (

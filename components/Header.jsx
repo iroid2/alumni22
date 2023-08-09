@@ -37,10 +37,12 @@ export default function Header() {
             <Link href={"#"}>Home</Link>
             <Link href={"#"}>About</Link>
             <Link href={"#"}>News</Link>
+            <Link href={"#"}>Articles</Link>
             <Link href={"#"}>Blog</Link>
-            <Link href={"#"}>About</Link>
-            <Link href={"#"}>About</Link>
-            <Link href={"#"}>About</Link>
+            <Link href={"#"}>Profiles</Link>
+            <Link href={"#"}>Events</Link>
+            <Link href={"#"}>Gallery</Link>
+            <Link href={"#"}>Shop</Link>
           </div>
           <div className="ctaBtn">
             <button>Register</button>

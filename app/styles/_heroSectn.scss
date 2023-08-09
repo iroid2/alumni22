@@ -1,10 +1,12 @@
 .heroSection {
   width: 100vw;
   height: 70vh;
-  background: url("/images/hero-bg.png");
+  background: url("/images/hero-bg.png ");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  position: relative;
+  // backdrop-filter: 0.3;
   // position: relative;
   background-attachment: fixed;
   overflow-y: hidden;
@@ -25,19 +27,47 @@
     background-color: black;
     position: absolute;
     left: 0;
+
     bottom: 0;
-    display: none;
+    // display: none;
     top: 0;
     opacity: 0.4;
     @media (max-width: 768px) {
       height: 100%;
-      display: none;
+      // display: none;
     }
   }
   .hero-text {
     text-align: center;
-    z-index: 300;
-
+    z-index: 70;
+    h1 {
+      font-size: 80px;
+      font-weight: 800;
+      line-height: 88px;
+      letter-spacing: 8px;
+      font-family: Consolas;
+      .tello {
+        background-color: orange;
+        padding: -2rem 0.6rem;
+      }
+      @media (max-width: 768px) {
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: 4px;
+      }
+    }
+    .subTitle {
+      font-size: 32.7px;
+      @media (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+    .intro {
+      font-size: 26.7px;
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
     button {
       padding: 1rem 2rem;
       border-radius: 2rem;
