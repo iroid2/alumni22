@@ -1,3 +1,4 @@
+import Archives from "@/components/Archives";
 import Events from "@/components/Events";
 import Header from "@/components/Header";
 import HeroSectn from "@/components/HeroSectn";
@@ -8,6 +9,7 @@ export default function page() {
     <div>
       <HeroSectn />
       <Events />
+      <Archives />
     </div>
   );
 }

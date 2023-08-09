@@ -30,7 +30,7 @@ export default function Header() {
             Get Invloved <IoIosInformationCircle className="center headIcon" />{" "}
           </p>
           <button>Make a Gift</button>
-          <BiSearchAlt className="center headIcon" />
+          <BiSearchAlt className=" center headIcon" />
         </div>
         <div className="navBar df spaceBtn ">
           <div className="nav-links center ">
