@@ -1,6 +1,7 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
 import { BiSearchAlt } from "react-icons/bi";
@@ -9,6 +10,10 @@ import { IoIosInformationCircle } from "react-icons/io";
 import { TfiMenu } from "react-icons/tfi";
 
 export default function Header() {
+  const [showNavigation, setShowNavigation] = useState(false);
+  function handleNav() {
+    setShowNavigation(!showNavigation);
+  }
   return (
     <div className="header df">
       <div className="leftHeader center">
@@ -33,7 +38,11 @@ export default function Header() {
           <BiSearchAlt className=" center headIcon" />
         </div>
         <div className="navBar df spaceBtn ">
-          <div className="nav-links center ">
+          <div
+            className={
+              showNavigation ? "nav-links showNav center " : "nav-links center "
+            }
+          >
             <Link href={"#"}>Home</Link>
             <Link href={"#"}>About</Link>
             <Link href={"#"}>News</Link>
@@ -50,7 +59,7 @@ export default function Header() {
         </div>
       </div>
       <div className="hiddenMen ">
-        <TfiMenu className="hamMenu " />
+        <TfiMenu onClick={handleNav} className="hamMenu " />
       </div>
     </div>
   );

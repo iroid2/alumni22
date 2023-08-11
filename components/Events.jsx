@@ -13,13 +13,13 @@ export default function Events() {
         <Link href={"#"} className="eventCard">
           <div className="month">Aug</div>
           <div className="day-of-the-month">8th</div>
-          <Link href={"#"} className="event-title">
+          <div className="event-title">
             Lorem ipsum dolor sit.lorem4 ipsum dolor sit.lorem4 ipsum dolor
             sit.lorem4{" "}
             <span className="title-arr">
               <FiArrowUpRight />
             </span>
-          </Link>
+          </div>
           <div className="event-details ">
             <div className="date event-det df">
               <div className="date-icon">
@@ -51,13 +51,13 @@ export default function Events() {
         <Link href={"#"} className="eventCard">
           <div className="month">Aug</div>
           <div className="day-of-the-month">8th</div>
-          <Link href={"#"} className="event-title">
+          <div className="event-title">
             Lorem ipsum dolor sit.lorem4 ipsum dolor sit.lorem4 ipsum dolor
             sit.lorem4{" "}
             <span className="title-arr">
               <FiArrowUpRight />
             </span>
-          </Link>
+          </div>
           <div className="event-details ">
             <div className="date event-det df">
               <div className="date-icon">
@@ -89,13 +89,13 @@ export default function Events() {
         <Link href={"#"} className="eventCard">
           <div className="month">Aug</div>
           <div className="day-of-the-month">8th</div>
-          <Link href={"#"} className="event-title">
+          <div className="event-title">
             Lorem ipsum dolor sit.lorem4 ipsum dolor sit.lorem4 ipsum dolor
             sit.lorem4{" "}
             <span className="title-arr">
               <FiArrowUpRight />
             </span>
-          </Link>
+          </div>
           <div className="event-details ">
             <div className="date event-det df">
               <div className="date-icon">

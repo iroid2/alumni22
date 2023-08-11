@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="icon">
               <AiOutlineMail />
             </div>
-            <div className="details">mosa@alumni.com</div>
+            <div className="details">mengoalumni@gmail.com </div>
           </div>
         </div>
       </div>
